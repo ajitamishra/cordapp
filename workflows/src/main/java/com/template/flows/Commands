@@ -1,0 +1,11 @@
+
+--------------------------running the cordapp--------------------
+
+./gradlew clean deployNodes
+/build/nodes/runnodes
+
+--------------------Run Flow----------------
+
+start shipmentFlow model:CyberTruck ,owner: "O=SpaceX,L=Hawthorne,C=US"
+
+run vaultQuery contractStateType:com.templates.states.CarState
